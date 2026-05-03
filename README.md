@@ -1,66 +1,73 @@
-# Mohit Gas Service - Company Webpage
+# React + TypeScript + Vite
 
-Official website for **Mohit Gas Service**. This project features a modern, responsive landing page and a dedicated projects/services showcase.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Overview
+Currently, two official plugins are available:
 
-A high-performance, multi-page static website built with modern web technologies. Designed to provide a premium user experience with smooth animations and interactive elements.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-### Key Pages:
-- **Home**: Featuring service highlights, about section, and contact information.
-- **Projects/Services**: A dedicated collection of work and service offerings.
+## React Compiler
 
-## Features
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-- **Modern UI/UX**: Clean, professional design optimized for all devices.
-- **Dynamic Animations**: Custom loading sequences, reveal animations, and interactive hover effects.
-- **Performance**: Optimized for speed with vanilla JavaScript and CSS.
-- **Interactive Elements**: Custom cursor, scroll progress indicators, and smooth scroll transitions.
-- **SEO Ready**: Semantic HTML structure with proper meta tags.
+## Expanding the ESLint configuration
 
-## Tech Stack
+If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
 
-- **Core**: HTML5, CSS3, Vanilla JavaScript
-- **Typography**: Inter, JetBrains Mono (via Google Fonts)
-- **Design**: Modern aesthetics with glassmorphism and smooth gradients.
+```js
+export default defineConfig([
+  globalIgnores(['dist']),
+  {
+    files: ['**/*.{ts,tsx}'],
+    extends: [
+      // Other configs...
 
-## Project Structure
+      // Remove tseslint.configs.recommended and replace with this
+      tseslint.configs.recommendedTypeChecked,
+      // Alternatively, use this for stricter rules
+      tseslint.configs.strictTypeChecked,
+      // Optionally, add this for stylistic rules
+      tseslint.configs.stylisticTypeChecked,
 
-```text
-.
-├── index.html       # Main landing page
-├── projects.html    # Services / Work showcase
-├── style.css        # Global styles & design system
-├── script.js        # Core interactions & animations
-├── projects.js      # Project-specific logic
-├── images/          # Image assets
-└── README.md        # Project documentation
+      // Other configs...
+    ],
+    languageOptions: {
+      parserOptions: {
+        project: ['./tsconfig.node.json', './tsconfig.app.json'],
+        tsconfigRootDir: import.meta.dirname,
+      },
+      // other options...
+    },
+  },
+])
 ```
 
-## Getting Started
+You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
 
-1. **Clone the repository**:
-   ```bash
-   git clone git@github.com:mohitgasservice2017-arch/Company-Webpage.git
-   ```
+```js
+// eslint.config.js
+import reactX from 'eslint-plugin-react-x'
+import reactDom from 'eslint-plugin-react-dom'
 
-2. **Navigate to the directory**:
-   ```bash
-   cd Company-Webpage
-   ```
-
-3. **Launch**:
-   Open `index.html` in any modern web browser. 
-   *Recommended: Use VS Code Live Server for real-time updates.*
-
-## Customization
-
-To tailor the website to your needs:
-- **Content**: Update personal/company details in `index.html`.
-- **Styling**: Modify `style.css` for custom color palettes and layout adjustments.
-- **Functionality**: Tweak `script.js` and `projects.js` for custom animations or logic.
-- **Assets**: Replace images in the `images/` directory.
-
-## License
-
-This project is licensed under the MIT License.
+export default defineConfig([
+  globalIgnores(['dist']),
+  {
+    files: ['**/*.{ts,tsx}'],
+    extends: [
+      // Other configs...
+      // Enable lint rules for React
+      reactX.configs['recommended-typescript'],
+      // Enable lint rules for React DOM
+      reactDom.configs.recommended,
+    ],
+    languageOptions: {
+      parserOptions: {
+        project: ['./tsconfig.node.json', './tsconfig.app.json'],
+        tsconfigRootDir: import.meta.dirname,
+      },
+      // other options...
+    },
+  },
+])
+```
