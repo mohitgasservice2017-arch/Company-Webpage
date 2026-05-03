@@ -171,11 +171,11 @@ function App() {
               <TiltCard className="bg-surface-container-lowest rounded-xl p-md border border-outline/10 shadow-sm tilt-card flex flex-col gap-sm h-full" tiltMax={10} tiltGlare={true} tiltMaxGlare={0.2} tiltSpeed={400}>
                 <div className="tilt-card-content flex flex-col h-full gap-sm">
                   <div className="w-16 h-16 rounded-full bg-primary-container/10 flex items-center justify-center text-primary-container mb-2">
-                    <span className="material-symbols-outlined" style={{ fontSize: '32px', fontVariationSettings: "'FILL' 1" }}>propane_tank</span>
+                    <span className="material-symbols-outlined" style={{ fontSize: '32px', fontVariationSettings: "'FILL' 1" }}>handyman</span>
                   </div>
-                  <h3 className="font-h3 text-h3 text-on-surface">Cylinders & Accessories</h3>
+                  <h3 className="font-h3 text-h3 text-on-surface">LPG Accessories</h3>
                   <p className="font-body-md text-body-md text-on-surface-variant flex-grow">
-                    Comprehensive supply of certified cylinders and premium accessories to ensure uninterrupted operation for your business.
+                    High-quality LPG accessories including regulators, high-pressure pipes, and safety valves designed for maximum durability and safety.
                   </p>
                   <button className="text-primary font-label-md text-label-md uppercase flex items-center gap-1 mt-4 group">
                     Learn More <span className="material-symbols-outlined group-hover:translate-x-1 transition-transform">arrow_forward</span>
@@ -203,7 +203,7 @@ function App() {
                   <img alt="Modern elegant suburban house exterior with warm lighting at dusk" className="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCAbIa4wrk-q__wOAUog2hC48T3P0q9THPpGN2zocbtdfPfYVltabfDjeai6vLX-IWtd0y4P6Iza-Yh3oAvnldZyFyvMH2v2wjhDHptBU2Q5pQUuCQd09AREttEqOMktLNhO-4r-BV41DpRWqgYbJlXQ811xU-yLmB_H-nBfHgiQRZEBPnUl9w0oG_kzBqBGvA0vCV3eEPChdfZ-Ok2LSZwobqWupMTqsYV_kaiA38hcmQNOOKaMShUBVKtFv_8tCYxCBnCA_3LSpla" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent flex flex-col justify-end p-6 tilt-card-content">
                     <h4 className="font-h4 text-h4 text-white mb-1">Houses</h4>
-                    <p className="font-body-sm text-white/80">Safe residential pipelining</p>
+                    <p className="font-body-sm text-white/80">house gas stove service</p>
                   </div>
                 </TiltCard>
               </div>
