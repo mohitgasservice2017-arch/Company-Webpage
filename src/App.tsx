@@ -71,32 +71,34 @@ function App() {
           <button className="font-['Plus_Jakarta_Sans'] font-bold uppercase tracking-wider text-sm text-orange-600 dark:text-orange-500 active:scale-95 transition-transform duration-150 py-2">
             GET A QUOTE
           </button>
-          <button className="bg-orange-600 text-white font-['Plus_Jakarta_Sans'] font-bold uppercase tracking-wider text-sm px-6 py-2 rounded-full hover:bg-orange-700 active:scale-95 transition-all duration-150 shadow-md">
-            Contact Us
-          </button>
+          <a href="https://wa.me/918570972010" target="_blank" rel="noopener noreferrer">
+            <button className="bg-orange-600 text-white font-['Plus_Jakarta_Sans'] font-bold uppercase tracking-wider text-sm px-6 py-2 rounded-full hover:bg-orange-700 active:scale-95 transition-all duration-150 shadow-md">
+              Contact Us
+            </button>
+          </a>
         </div>
       </nav>
 
       <main>
-        <section className="w-full bg-primary-container text-on-primary-container relative overflow-hidden">
+        <section className="w-full bg-secondary-container text-on-secondary-container relative overflow-hidden">
           <div className="absolute inset-0 z-0">
-            <img alt="Industrial gas infrastructure with warm dramatic lighting and glowing orange sparks" className="w-full h-full object-cover opacity-20 mix-blend-multiply" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBmpMHRW32cWC1bSJaK1WNgkM4xaY5O_F7GCN3jahzfi_NuOdesd0RrjWZFJVS80Jel7HPPl-zws_lh6gqYzoge0ADTwvo_WE0o2nSX9CYTGhD-9j2KQj9ZJ6EKyfbJcU0FR5_2YMzyz-83sIMHwTBaeAYVIcd8EdivxENe5-_zTBkCbLDKgduJCrZ46UU3VRccZYLHF6SWlLZvn-Gjs-XgJWDpT0tRCXgYRq2r4yr7M6ekVTzbHgsvt-IsZ7U61toErdnDCGX9ia62" />
+            <img alt="Industrial gas infrastructure with warm dramatic lighting and glowing orange sparks" className="w-full h-full object-cover opacity-30 mix-blend-multiply grayscale" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBmpMHRW32cWC1bSJaK1WNgkM4xaY5O_F7GCN3jahzfi_NuOdesd0RrjWZFJVS80Jel7HPPl-zws_lh6gqYzoge0ADTwvo_WE0o2nSX9CYTGhD-9j2KQj9ZJ6EKyfbJcU0FR5_2YMzyz-83sIMHwTBaeAYVIcd8EdivxENe5-_zTBkCbLDKgduJCrZ46UU3VRccZYLHF6SWlLZvn-Gjs-XgJWDpT0tRCXgYRq2r4yr7M6ekVTzbHgsvt-IsZ7U61toErdnDCGX9ia62" />
           </div>
           <div className="relative z-10 max-w-container-max mx-auto px-4 md:px-12 py-xl md:py-24 grid grid-cols-1 md:grid-cols-2 gap-gutter items-center min-h-[716px]">
             <div className="flex flex-col gap-md" data-aos="fade-right" data-aos-duration="1000">
-              <div className="inline-flex items-center gap-2 bg-secondary-container text-on-secondary-container px-4 py-2 rounded-full w-fit">
+              <div className="inline-flex items-center gap-2 bg-white text-zinc-900 px-4 py-2 rounded-full w-fit shadow-sm">
                 <span className="material-symbols-outlined text-[18px]">local_fire_department</span>
                 <span className="font-label-sm text-label-sm uppercase tracking-wider">ISO 9001 Certified</span>
               </div>
-              <h1 className="font-h1 text-h1 text-white drop-shadow-md">Expert Gas Solutions for Home & Business</h1>
-              <p className="font-body-lg text-body-lg text-white/90 max-w-lg">
+              <h1 className="font-h1 text-h1 text-zinc-900 drop-shadow-sm">Expert Gas Solutions for Home & Business</h1>
+              <p className="font-body-lg text-body-lg text-zinc-800 max-w-lg">
                 Delivering unmatched precision, safety, and energy across residential, commercial, and industrial sectors. Your trusted partner for modern gas infrastructure.
               </p>
               <div className="flex flex-wrap gap-4 pt-sm">
-                <button className="bg-secondary-container text-on-secondary-container font-label-md text-label-md uppercase tracking-wider px-8 py-4 rounded-full hover:bg-secondary-fixed transition-colors shadow-lg">
+                <button className="bg-orange-600 text-white font-label-md text-label-md uppercase tracking-wider px-8 py-4 rounded-full hover:bg-orange-700 transition-colors shadow-lg">
                   Our Services
                 </button>
-                <button className="bg-transparent border-2 border-white text-white font-label-md text-label-md uppercase tracking-wider px-8 py-4 rounded-full hover:bg-white/10 transition-colors">
+                <button className="bg-transparent border-2 border-zinc-900 text-zinc-900 font-label-md text-label-md uppercase tracking-wider px-8 py-4 rounded-full hover:bg-zinc-900/10 transition-colors">
                   Emergency Contact
                 </button>
               </div>
@@ -139,7 +141,7 @@ function App() {
                   <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mb-2">
                     <span className="material-symbols-outlined" style={{ fontSize: '32px', fontVariationSettings: "'FILL' 1" }}>plumbing</span>
                   </div>
-                  <h3 className="font-h3 text-h3 text-on-surface">Gas Pipe Line Internal Pipelining Fitting</h3>
+                  <h3 className="font-h3 text-h3 text-on-surface">PNG internal piping fitting</h3>
                   <p className="font-body-md text-body-md text-on-surface-variant flex-grow">
                     End-to-end internal piping solutions ensuring seamless gas flow, tailored for complex structural requirements with maximum safety.
                   </p>
@@ -197,16 +199,7 @@ function App() {
                 View All Sectors
               </button>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter">
-              <div data-aos="fade-up" data-aos-delay="100">
-                <TiltCard className="group cursor-pointer rounded-xl overflow-hidden relative aspect-[4/5] bg-surface-container-highest tilt-card h-full" tiltMax={8} tiltScale={1.05} tiltSpeed={400}>
-                  <img alt="Modern elegant suburban house exterior with warm lighting at dusk" className="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCAbIa4wrk-q__wOAUog2hC48T3P0q9THPpGN2zocbtdfPfYVltabfDjeai6vLX-IWtd0y4P6Iza-Yh3oAvnldZyFyvMH2v2wjhDHptBU2Q5pQUuCQd09AREttEqOMktLNhO-4r-BV41DpRWqgYbJlXQ811xU-yLmB_H-nBfHgiQRZEBPnUl9w0oG_kzBqBGvA0vCV3eEPChdfZ-Ok2LSZwobqWupMTqsYV_kaiA38hcmQNOOKaMShUBVKtFv_8tCYxCBnCA_3LSpla" />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent flex flex-col justify-end p-6 tilt-card-content">
-                    <h4 className="font-h4 text-h4 text-white mb-1">Houses</h4>
-                    <p className="font-body-sm text-white/80">house gas stove service</p>
-                  </div>
-                </TiltCard>
-              </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter">
 
               <div data-aos="fade-up" data-aos-delay="200">
                 <TiltCard className="group cursor-pointer rounded-xl overflow-hidden relative aspect-[4/5] bg-surface-container-highest tilt-card h-full" tiltMax={8} tiltScale={1.05} tiltSpeed={400}>
@@ -320,7 +313,7 @@ function App() {
           </div>
           <div className="flex items-center gap-3 text-zinc-600 dark:text-zinc-400">
             <span className="material-symbols-outlined">phone</span>
-            <p className="font-['Plus_Jakarta_Sans'] text-sm font-medium">+91 XXXXX XXXXX</p>
+            <p className="font-['Plus_Jakarta_Sans'] text-sm font-medium">+91 85709 72010</p>
           </div>
           <div className="flex gap-4 mt-2">
             <a aria-label="Facebook" className="w-10 h-10 rounded-full bg-zinc-200 dark:bg-zinc-800 flex items-center justify-center text-zinc-600 dark:text-zinc-400 hover:bg-orange-100 hover:text-orange-600 transition-colors" href="#">
@@ -351,9 +344,11 @@ function App() {
         <div className="flex flex-col gap-6">
           <h4 className="font-bold text-zinc-900 dark:text-white uppercase tracking-wider text-sm">Need a Consultation?</h4>
           <p className="text-sm text-zinc-600 dark:text-zinc-400 max-w-xs">Our experts are ready to design the perfect gas infrastructure for your specific needs.</p>
-          <button className="bg-orange-600 text-white font-['Plus_Jakarta_Sans'] font-bold uppercase tracking-wider text-sm px-8 py-3 rounded-md hover:bg-orange-700 active:scale-95 transition-all duration-150 shadow-md w-fit">
-            Contact Us Now
-          </button>
+          <a href="https://wa.me/918570972010" target="_blank" rel="noopener noreferrer">
+            <button className="bg-orange-600 text-white font-['Plus_Jakarta_Sans'] font-bold uppercase tracking-wider text-sm px-8 py-3 rounded-md hover:bg-orange-700 active:scale-95 transition-all duration-150 shadow-md w-fit">
+              Contact Us Now
+            </button>
+          </a>
         </div>
       </footer>
       <div className="w-full bg-zinc-200 dark:bg-zinc-950 px-8 py-4 text-center">
