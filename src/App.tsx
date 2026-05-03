@@ -277,7 +277,7 @@ function App() {
                 <span className="material-symbols-outlined" style={{ fontVariationSettings: "'FILL' 1" }}>star</span>
                 <span className="material-symbols-outlined" style={{ fontVariationSettings: "'FILL' 1" }}>star</span>
               </div>
-              <p className="text-zinc-700 italic">"We had internal gas pipelining done for our new house. The team was highly professional, worked cleanly, and explained all safety protocols to us clearly. Highly recommended."</p>
+              <p className="text-zinc-700 italic">"We had premium copper gas piping installation done for our new house. The team was highly professional, worked cleanly, and explained all safety protocols to us clearly. Highly recommended."</p>
             </div>
             {/* Testimonial 3 */}
             <div className="bg-surface-container-lowest rounded-xl p-8 border border-outline/10 shadow-md relative" data-aos="fade-up" data-aos-delay="300">
@@ -296,7 +296,7 @@ function App() {
                 <span className="material-symbols-outlined" style={{ fontVariationSettings: "'FILL' 1" }}>star</span>
                 <span className="material-symbols-outlined">star_half</span>
               </div>
-              <p className="text-zinc-700 italic">"Reliable cylinder supply is crucial for our hotel operations. Mohit Gas Service has never missed a delivery, and their emergency response team is incredibly fast."</p>
+              <p className="text-zinc-700 italic">"Our hotel's industrial gas manifold system was designed and installed by Mohit Gas Service with incredible precision. Their 24/7 emergency support and technical expertise have been a game-changer for our operations."</p>
             </div>
           </div>
         </section>
