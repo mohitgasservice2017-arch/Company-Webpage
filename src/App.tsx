@@ -80,25 +80,25 @@ function App() {
       </nav>
 
       <main>
-        <section className="w-full bg-secondary-container text-on-secondary-container relative overflow-hidden">
+        <section className="w-full bg-primary-container text-on-primary-container relative overflow-hidden">
           <div className="absolute inset-0 z-0">
-            <img alt="Industrial gas infrastructure with warm dramatic lighting and glowing orange sparks" className="w-full h-full object-cover opacity-30 mix-blend-multiply grayscale" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBmpMHRW32cWC1bSJaK1WNgkM4xaY5O_F7GCN3jahzfi_NuOdesd0RrjWZFJVS80Jel7HPPl-zws_lh6gqYzoge0ADTwvo_WE0o2nSX9CYTGhD-9j2KQj9ZJ6EKyfbJcU0FR5_2YMzyz-83sIMHwTBaeAYVIcd8EdivxENe5-_zTBkCbLDKgduJCrZ46UU3VRccZYLHF6SWlLZvn-Gjs-XgJWDpT0tRCXgYRq2r4yr7M6ekVTzbHgsvt-IsZ7U61toErdnDCGX9ia62" />
+            <img alt="Industrial gas infrastructure with warm dramatic lighting and glowing orange sparks" className="w-full h-full object-cover opacity-20 mix-blend-multiply" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBmpMHRW32cWC1bSJaK1WNgkM4xaY5O_F7GCN3jahzfi_NuOdesd0RrjWZFJVS80Jel7HPPl-zws_lh6gqYzoge0ADTwvo_WE0o2nSX9CYTGhD-9j2KQj9ZJ6EKyfbJcU0FR5_2YMzyz-83sIMHwTBaeAYVIcd8EdivxENe5-_zTBkCbLDKgduJCrZ46UU3VRccZYLHF6SWlLZvn-Gjs-XgJWDpT0tRCXgYRq2r4yr7M6ekVTzbHgsvt-IsZ7U61toErdnDCGX9ia62" />
           </div>
           <div className="relative z-10 max-w-container-max mx-auto px-4 md:px-12 py-xl md:py-24 grid grid-cols-1 md:grid-cols-2 gap-gutter items-center min-h-[716px]">
             <div className="flex flex-col gap-md" data-aos="fade-right" data-aos-duration="1000">
-              <div className="inline-flex items-center gap-2 bg-white text-zinc-900 px-4 py-2 rounded-full w-fit shadow-sm">
+              <div className="inline-flex items-center gap-2 bg-secondary-container text-on-secondary-container px-4 py-2 rounded-full w-fit">
                 <span className="material-symbols-outlined text-[18px]">local_fire_department</span>
                 <span className="font-label-sm text-label-sm uppercase tracking-wider">ISO 9001 Certified</span>
               </div>
-              <h1 className="font-h1 text-h1 text-zinc-900 drop-shadow-sm">Expert Gas Solutions for Home & Business</h1>
-              <p className="font-body-lg text-body-lg text-zinc-800 max-w-lg">
+              <h1 className="font-h1 text-h1 text-white drop-shadow-md">Expert Gas Solutions for Home & Business</h1>
+              <p className="font-body-lg text-body-lg text-white/90 max-w-lg">
                 Delivering unmatched precision, safety, and energy across residential, commercial, and industrial sectors. Your trusted partner for modern gas infrastructure.
               </p>
               <div className="flex flex-wrap gap-4 pt-sm">
-                <button className="bg-orange-600 text-white font-label-md text-label-md uppercase tracking-wider px-8 py-4 rounded-full hover:bg-orange-700 transition-colors shadow-lg">
+                <button className="bg-secondary-container text-on-secondary-container font-label-md text-label-md uppercase tracking-wider px-8 py-4 rounded-full hover:bg-secondary-fixed transition-colors shadow-lg">
                   Our Services
                 </button>
-                <button className="bg-transparent border-2 border-zinc-900 text-zinc-900 font-label-md text-label-md uppercase tracking-wider px-8 py-4 rounded-full hover:bg-zinc-900/10 transition-colors">
+                <button className="bg-transparent border-2 border-white text-white font-label-md text-label-md uppercase tracking-wider px-8 py-4 rounded-full hover:bg-white/10 transition-colors">
                   Emergency Contact
                 </button>
               </div>
