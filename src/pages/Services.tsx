@@ -44,7 +44,7 @@ export function Services() {
           </p>
           <a href="https://wa.me/918570972010" target="_blank" rel="noopener noreferrer" className="inline-block">
             <button className="bg-primary text-on-primary font-bold uppercase tracking-wider text-sm px-8 py-4 rounded-full hover:bg-primary/90 active:scale-95 transition-all duration-150 shadow-md">
-              Contact Our Engineers
+              Contact Us
             </button>
           </a>
         </div>
