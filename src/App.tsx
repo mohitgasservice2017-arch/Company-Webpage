@@ -331,7 +331,6 @@ function App() {
           <a className="font-['Plus_Jakarta_Sans'] text-sm font-medium text-zinc-600 dark:text-zinc-400 hover:text-orange-600 dark:hover:text-orange-400 transition-colors" href="#">Residential Services</a>
           <a className="font-['Plus_Jakarta_Sans'] text-sm font-medium text-zinc-600 dark:text-zinc-400 hover:text-orange-600 dark:hover:text-orange-400 transition-colors" href="#">Commercial Solutions</a>
           <a className="font-['Plus_Jakarta_Sans'] text-sm font-medium text-zinc-600 dark:text-zinc-400 hover:text-orange-600 dark:hover:text-orange-400 transition-colors" href="#">Industrial Infrastructure</a>
-          <a className="font-['Plus_Jakarta_Sans'] text-sm font-medium text-zinc-600 dark:text-zinc-400 hover:text-orange-600 dark:hover:text-orange-400 transition-colors" href="#">Parts & Accessories</a>
         </div>
         <div className="flex flex-col gap-4">
           <h4 className="font-bold text-zinc-900 dark:text-white mb-2 uppercase tracking-wider text-sm">Support</h4>
