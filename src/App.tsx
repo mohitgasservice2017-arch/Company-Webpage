@@ -65,7 +65,6 @@ function App() {
           <a className="font-['Plus_Jakarta_Sans'] font-bold uppercase tracking-wider text-sm text-zinc-900 dark:text-zinc-100 hover:text-orange-600 dark:hover:text-orange-400 transition-colors" href="#">Residential</a>
           <a className="font-['Plus_Jakarta_Sans'] font-bold uppercase tracking-wider text-sm text-zinc-900 dark:text-zinc-100 hover:text-orange-600 dark:hover:text-orange-400 transition-colors" href="#">Commercial</a>
           <a className="font-['Plus_Jakarta_Sans'] font-bold uppercase tracking-wider text-sm text-zinc-900 dark:text-zinc-100 hover:text-orange-600 dark:hover:text-orange-400 transition-colors" href="#">Industrial</a>
-          <a className="font-['Plus_Jakarta_Sans'] font-bold uppercase tracking-wider text-sm text-zinc-900 dark:text-zinc-100 hover:text-orange-600 dark:hover:text-orange-400 transition-colors" href="#">Accessories</a>
         </div>
         <div className="flex gap-4">
           <button className="font-['Plus_Jakarta_Sans'] font-bold uppercase tracking-wider text-sm text-orange-600 dark:text-orange-500 active:scale-95 transition-transform duration-150 py-2">
