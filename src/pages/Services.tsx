@@ -42,7 +42,7 @@ export function Services() {
           <p className="font-body-lg text-on-primary-container/80 max-w-2xl mx-auto mb-8">
             Our experts can design and implement specialized gas infrastructure tailored to your unique requirements.
           </p>
-          <a href="https://wa.me/918570972010" target="_blank" rel="noopener noreferrer" className="inline-block">
+          <a href="https://wa.me/918570972010?text=Hi%2C%20I%20need%20a%20custom%20gas%20infrastructure%20solution." target="_blank" rel="noopener noreferrer" className="inline-block">
             <button className="bg-primary text-on-primary font-bold uppercase tracking-wider text-sm px-8 py-4 rounded-full hover:bg-primary/90 active:scale-95 transition-all duration-150 shadow-md">
               Contact Us
             </button>

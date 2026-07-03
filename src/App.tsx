@@ -51,7 +51,7 @@ function App() {
           <Link className="font-['Plus_Jakarta_Sans'] font-bold uppercase tracking-wider text-sm text-zinc-900 dark:text-zinc-100 hover:text-orange-600 dark:hover:text-orange-400 transition-colors" to="/services/commercial-infrastructure">Commercial</Link>
         </div>
         <div className="flex gap-4">
-          <a href="https://wa.me/918570972010" target="_blank" rel="noopener noreferrer">
+          <a href="https://wa.me/918570972010?text=Hi%2C%20I%20want%20to%20get%20in%20touch%20with%20Mohit%20Gas%20Service." target="_blank" rel="noopener noreferrer">
             <button className="bg-orange-600 text-white font-['Plus_Jakarta_Sans'] font-bold uppercase tracking-wider text-sm px-6 py-2.5 rounded-full hover:bg-orange-700 active:scale-95 transition-all duration-150 shadow-sm">
               Contact Us
             </button>
@@ -108,7 +108,7 @@ function App() {
         <div className="flex flex-col gap-6">
           <h4 className="font-bold text-zinc-900 dark:text-white uppercase tracking-wider text-sm">Need a Consultation?</h4>
           <p className="text-sm text-zinc-600 dark:text-zinc-400 max-w-xs">Our experts are ready to design the perfect gas infrastructure for your specific needs.</p>
-          <a href="https://wa.me/918570972010" target="_blank" rel="noopener noreferrer">
+          <a href="https://wa.me/918570972010?text=Hi%2C%20I%20would%20like%20to%20request%20a%20consultation%20for%20my%20gas%20infrastructure%20needs." target="_blank" rel="noopener noreferrer">
             <button className="bg-orange-600 text-white font-['Plus_Jakarta_Sans'] font-bold uppercase tracking-wider text-sm px-8 py-3 rounded-full hover:bg-orange-700 active:scale-95 transition-all duration-150 shadow-md w-fit">
               Contact Us
             </button>
