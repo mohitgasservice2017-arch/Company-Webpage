@@ -103,16 +103,9 @@ export function Home() {
 
       <section className="bg-surface-container py-xl overflow-hidden">
         <div className="max-w-container-max mx-auto px-4 md:px-12">
-          <div className="flex flex-col md:flex-row justify-between items-end mb-xl gap-6" data-aos="fade-up">
-            <div>
-              <h2 className="font-h2 text-h2 text-on-surface mb-sm">Operational Sectors</h2>
-              <p className="font-body-lg text-body-lg text-on-surface-variant max-w-xl">Delivering tailored gas infrastructure to power diverse environments safely and efficiently.</p>
-            </div>
-            <Link to="/services">
-              <button className="bg-primary text-on-primary font-label-md text-label-md uppercase tracking-wider px-6 py-3 rounded-full hover:bg-primary/90 transition-colors shrink-0">
-                View All Sectors
-              </button>
-            </Link>
+          <div className="mb-xl" data-aos="fade-up">
+            <h2 className="font-h2 text-h2 text-on-surface mb-sm">Operational Sectors</h2>
+            <p className="font-body-lg text-body-lg text-on-surface-variant max-w-xl">Delivering tailored gas infrastructure to power diverse environments safely and efficiently.</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter">
 
