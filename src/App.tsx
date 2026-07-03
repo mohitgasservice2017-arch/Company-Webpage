@@ -5,6 +5,8 @@ import 'aos/dist/aos.css';
 import { Home } from './pages/Home';
 import { Services } from './pages/Services';
 import { ServiceDetail } from './pages/ServiceDetail';
+import { TermsOfService } from './pages/TermsOfService';
+import { PrivacyPolicy } from './pages/PrivacyPolicy';
 
 function App() {
   const [showScrollTop, setShowScrollTop] = useState(false);
@@ -61,6 +63,8 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/services" element={<Services />} />
         <Route path="/services/:id" element={<ServiceDetail />} />
+        <Route path="/terms-of-service" element={<TermsOfService />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
       </Routes>
 
       <footer className="w-full border-t-8 border-orange-600 bg-zinc-50 dark:bg-zinc-900 flex flex-col md:flex-row justify-between items-start px-8 py-16 gap-10">
@@ -100,10 +104,9 @@ function App() {
         </div>
         <div className="flex flex-col gap-4">
           <h4 className="font-bold text-zinc-900 dark:text-white mb-2 uppercase tracking-wider text-sm">Support</h4>
-          <a className="font-['Plus_Jakarta_Sans'] text-sm font-medium text-zinc-600 dark:text-zinc-400 hover:text-orange-600 dark:hover:text-orange-400 transition-colors" href="#">Safety Standards</a>
-          <a className="font-['Plus_Jakarta_Sans'] text-sm font-medium text-zinc-600 dark:text-zinc-400 hover:text-orange-600 dark:hover:text-orange-400 transition-colors" href="https://wa.me/918570972010" target="_blank" rel="noopener noreferrer">Emergency Services</a>
-          <a className="font-['Plus_Jakarta_Sans'] text-sm font-medium text-zinc-600 dark:text-zinc-400 hover:text-orange-600 dark:hover:text-orange-400 transition-colors" href="#">Terms of Service</a>
-          <a className="font-['Plus_Jakarta_Sans'] text-sm font-medium text-zinc-600 dark:text-zinc-400 hover:text-orange-600 dark:hover:text-orange-400 transition-colors" href="#">Privacy Policy</a>
+          <Link className="font-['Plus_Jakarta_Sans'] text-sm font-medium text-zinc-600 dark:text-zinc-400 hover:text-orange-600 dark:hover:text-orange-400 transition-colors" to="/services/safety-audits">Safety Standards</Link>
+          <Link className="font-['Plus_Jakarta_Sans'] text-sm font-medium text-zinc-600 dark:text-zinc-400 hover:text-orange-600 dark:hover:text-orange-400 transition-colors" to="/terms-of-service">Terms of Service</Link>
+          <Link className="font-['Plus_Jakarta_Sans'] text-sm font-medium text-zinc-600 dark:text-zinc-400 hover:text-orange-600 dark:hover:text-orange-400 transition-colors" to="/privacy-policy">Privacy Policy</Link>
         </div>
         <div className="flex flex-col gap-6">
           <h4 className="font-bold text-zinc-900 dark:text-white uppercase tracking-wider text-sm">Need a Consultation?</h4>
