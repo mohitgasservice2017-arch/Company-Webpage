@@ -25,9 +25,11 @@ export function Home() {
                   Our Services
                 </button>
               </Link>
-              <button className="bg-transparent border-2 border-white text-white font-label-md text-label-md uppercase tracking-wider px-8 py-4 rounded-full hover:bg-white/10 transition-colors">
-                Emergency Contact
-              </button>
+              <a href="https://wa.me/918570972010" target="_blank" rel="noopener noreferrer">
+                <button className="bg-transparent border-2 border-white text-white font-label-md text-label-md uppercase tracking-wider px-8 py-4 rounded-full hover:bg-white/10 transition-colors">
+                  Emergency Contact
+                </button>
+              </a>
             </div>
           </div>
         </div>

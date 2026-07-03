@@ -96,7 +96,7 @@ function App() {
         <div className="flex flex-col gap-4">
           <h4 className="font-bold text-zinc-900 dark:text-white mb-2 uppercase tracking-wider text-sm">Support</h4>
           <a className="font-['Plus_Jakarta_Sans'] text-sm font-medium text-zinc-600 dark:text-zinc-400 hover:text-orange-600 dark:hover:text-orange-400 transition-colors" href="#">Safety Standards</a>
-          <a className="font-['Plus_Jakarta_Sans'] text-sm font-medium text-zinc-600 dark:text-zinc-400 hover:text-orange-600 dark:hover:text-orange-400 transition-colors" href="#">Emergency Services</a>
+          <a className="font-['Plus_Jakarta_Sans'] text-sm font-medium text-zinc-600 dark:text-zinc-400 hover:text-orange-600 dark:hover:text-orange-400 transition-colors" href="https://wa.me/918570972010" target="_blank" rel="noopener noreferrer">Emergency Services</a>
           <a className="font-['Plus_Jakarta_Sans'] text-sm font-medium text-zinc-600 dark:text-zinc-400 hover:text-orange-600 dark:hover:text-orange-400 transition-colors" href="#">Terms of Service</a>
           <a className="font-['Plus_Jakarta_Sans'] text-sm font-medium text-zinc-600 dark:text-zinc-400 hover:text-orange-600 dark:hover:text-orange-400 transition-colors" href="#">Privacy Policy</a>
         </div>
