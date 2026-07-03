@@ -35,7 +35,7 @@ export function ServiceDetail() {
             </p>
             
             <div className="flex flex-wrap gap-4">
-              <a href="https://wa.me/918570972010" target="_blank" rel="noopener noreferrer">
+              <a href={`https://wa.me/918570972010?text=${encodeURIComponent(`Hi, I am interested in your ${service.title} service.`)}`} target="_blank" rel="noopener noreferrer">
                 <button className="bg-primary text-on-primary font-bold uppercase tracking-wider text-sm px-8 py-4 rounded-full hover:bg-primary/90 active:scale-95 transition-all duration-150 shadow-md">
                   Request Service
                 </button>
