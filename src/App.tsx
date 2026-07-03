@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { Routes, Route, Link } from 'react-router-dom';
+import { Routes, Route, Link, useLocation } from 'react-router-dom';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { Home } from './pages/Home';
@@ -8,6 +8,11 @@ import { ServiceDetail } from './pages/ServiceDetail';
 
 function App() {
   const [showScrollTop, setShowScrollTop] = useState(false);
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
 
   useEffect(() => {
     AOS.init({
