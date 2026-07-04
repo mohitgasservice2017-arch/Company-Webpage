@@ -1,0 +1,19 @@
+# Mohit Gas Service
+
+> Mohit Gas Service provides comprehensive gas infrastructure solutions engineered for safety, efficiency, and reliability across residential, commercial, and industrial sectors.
+
+Mohit Gas Service specializes in end-to-end gas pipeline installations, including piped natural gas (PNG) connections, heavy-duty industrial setups, and specialized commercial bhatti installations. The company strictly adheres to ISO 9001 certified safety standards and municipal regulations.
+
+## Services
+
+- [Residential Gas Pipeline](https://www.mohitgasservice.com/services/residential-pipeline): Safe and aesthetically pleasing PNG connections for modern homes and apartments.
+- [Commercial Infrastructure](https://www.mohitgasservice.com/services/commercial-infrastructure): High-capacity gas solutions for restaurants, hotels, and commercial kitchens.
+- [Industrial Gas Systems](https://www.mohitgasservice.com/services/industrial-systems): Robust and scalable gas manifolds and piping for factories and industrial plants.
+- [PNG Internal Piping Fitting](https://www.mohitgasservice.com/services/png-piping-fitting): End-to-end internal piping solutions ensuring seamless gas flow.
+- [Bhatti Services](https://www.mohitgasservice.com/services/bhatti-services): Specialized installation, maintenance, and optimization of commercial bhattis.
+- [Safety Audits & Maintenance](https://www.mohitgasservice.com/services/safety-audits): Comprehensive inspection and maintenance services to ensure safety standards.
+
+## Legal
+
+- [Terms of Service](https://www.mohitgasservice.com/terms-of-service): Operating terms and conditions for our services.
+- [Privacy Policy](https://www.mohitgasservice.com/privacy-policy): Details on how we handle and protect customer data.
