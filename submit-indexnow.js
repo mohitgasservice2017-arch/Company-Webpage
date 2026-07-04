@@ -1,4 +1,4 @@
-const https = require('https');
+import https from 'https';
 
 const HOST = 'www.mohitgasservice.com';
 const KEY = '283b81837e4b4e2fb906bbbbb65a7a7f';
@@ -40,8 +40,9 @@ console.log('Submitting URLs to IndexNow...');
 const req = https.request(options, (res) => {
   console.log(`Status Code: ${res.statusCode}`);
   
-  if (res.statusCode === 200) {
-    console.log('✅ URLs submitted successfully!');
+  // 200 OK or 202 Accepted are both success codes for IndexNow
+  if (res.statusCode === 200 || res.statusCode === 202) {
+    console.log('✅ URLs submitted successfully! (Search engines have accepted the request)');
   } else {
     console.error(`❌ Failed to submit URLs. Status Code: ${res.statusCode}`);
   }
