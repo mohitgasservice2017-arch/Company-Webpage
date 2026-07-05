@@ -43,8 +43,8 @@ export function Home() {
             <div className="marquee-content items-center">
               <img src="/clients/agropure.webp" alt="Agropure" className="h-12 md:h-[58px] w-auto object-contain px-8 grayscale opacity-70" />
               <img src="/clients/amber-logo.png" alt="Amber" className="h-10 md:h-12 w-auto object-contain px-8 grayscale opacity-70" />
-              <img src="/clients/ashoka.webp" alt="Ashoka" className="h-12 md:h-[58px] w-auto object-contain px-8 grayscale opacity-70" />
-              <img src="/clients/frankmetals.png" alt="Frank Metals" className="h-10 md:h-12 w-auto object-contain px-8 grayscale opacity-70" />
+              <img src="/clients/ashoka.webp" alt="Ashoka" className="h-12 md:h-[58px] w-auto object-contain px-8 grayscale opacity-100" />
+              <img src="/clients/frankmetals.png" alt="Frank Metals" className="h-10 md:h-12 w-auto object-contain px-8 grayscale opacity-100" />
               <img src="/clients/mannat-haveli.png" alt="Mannat Haveli" className="h-10 md:h-12 w-auto object-contain px-8 grayscale opacity-70" />
               <img src="/clients/oldraohotels.png" alt="Old Rao Hotels" className="h-[96px] md:h-[117px] w-auto object-contain px-8 grayscale opacity-70" />
               <img src="/clients/srmuniversity.png" alt="SRM University" className="h-10 md:h-12 w-auto object-contain px-8 grayscale opacity-70" />
@@ -52,8 +52,8 @@ export function Home() {
             <div aria-hidden="true" className="marquee-content items-center">
               <img src="/clients/agropure.webp" alt="Agropure" className="h-12 md:h-[58px] w-auto object-contain px-8 grayscale opacity-70" />
               <img src="/clients/amber-logo.png" alt="Amber" className="h-10 md:h-12 w-auto object-contain px-8 grayscale opacity-70" />
-              <img src="/clients/ashoka.webp" alt="Ashoka" className="h-12 md:h-[58px] w-auto object-contain px-8 grayscale opacity-70" />
-              <img src="/clients/frankmetals.png" alt="Frank Metals" className="h-10 md:h-12 w-auto object-contain px-8 grayscale opacity-70" />
+              <img src="/clients/ashoka.webp" alt="Ashoka" className="h-12 md:h-[58px] w-auto object-contain px-8 grayscale opacity-100" />
+              <img src="/clients/frankmetals.png" alt="Frank Metals" className="h-10 md:h-12 w-auto object-contain px-8 grayscale opacity-100" />
               <img src="/clients/mannat-haveli.png" alt="Mannat Haveli" className="h-10 md:h-12 w-auto object-contain px-8 grayscale opacity-70" />
               <img src="/clients/oldraohotels.png" alt="Old Rao Hotels" className="h-[96px] md:h-[117px] w-auto object-contain px-8 grayscale opacity-70" />
               <img src="/clients/srmuniversity.png" alt="SRM University" className="h-10 md:h-12 w-auto object-contain px-8 grayscale opacity-70" />
