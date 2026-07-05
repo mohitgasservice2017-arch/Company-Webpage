@@ -41,18 +41,22 @@ export function Home() {
           <h3 className="text-center text-sm font-bold uppercase tracking-widest text-zinc-400 mb-10" data-aos="fade-up">Trusted by Industry Leaders</h3>
           <div className="marquee-container" data-aos="fade-up" data-aos-delay="100">
             <div className="marquee-content items-center">
-              <div className="text-xl font-bold text-zinc-300 px-8 whitespace-nowrap">PREMIER HOTEL CHAINS</div>
-              <div className="text-xl font-bold text-zinc-300 px-8 whitespace-nowrap">GLOBAL INDUSTRIAL PLANTS</div>
-              <div className="text-xl font-bold text-zinc-300 px-8 whitespace-nowrap">TOP RESTAURANT GROUPS</div>
-              <div className="text-xl font-bold text-zinc-300 px-8 whitespace-nowrap">NATIONAL BUILDERS</div>
-              <div className="text-xl font-bold text-zinc-300 px-8 whitespace-nowrap">CITY MUNICIPALITIES</div>
+              <img src="/clients/agropure.webp" alt="Agropure" className="h-12 md:h-[58px] w-auto object-contain px-8 grayscale opacity-70" />
+              <img src="/clients/amber-logo.png" alt="Amber" className="h-10 md:h-12 w-auto object-contain px-8 grayscale opacity-70" />
+              <img src="/clients/ashoka.webp" alt="Ashoka" className="h-12 md:h-[58px] w-auto object-contain px-8 grayscale opacity-70" />
+              <img src="/clients/frankmetals.png" alt="Frank Metals" className="h-10 md:h-12 w-auto object-contain px-8 grayscale opacity-70" />
+              <img src="/clients/mannat-haveli.png" alt="Mannat Haveli" className="h-10 md:h-12 w-auto object-contain px-8 grayscale opacity-70" />
+              <img src="/clients/oldraohotels.png" alt="Old Rao Hotels" className="h-[96px] md:h-[117px] w-auto object-contain px-8 grayscale opacity-70" />
+              <img src="/clients/srmuniversity.png" alt="SRM University" className="h-10 md:h-12 w-auto object-contain px-8 grayscale opacity-70" />
             </div>
             <div aria-hidden="true" className="marquee-content items-center">
-              <div className="text-xl font-bold text-zinc-300 px-8 whitespace-nowrap">PREMIER HOTEL CHAINS</div>
-              <div className="text-xl font-bold text-zinc-300 px-8 whitespace-nowrap">GLOBAL INDUSTRIAL PLANTS</div>
-              <div className="text-xl font-bold text-zinc-300 px-8 whitespace-nowrap">TOP RESTAURANT GROUPS</div>
-              <div className="text-xl font-bold text-zinc-300 px-8 whitespace-nowrap">NATIONAL BUILDERS</div>
-              <div className="text-xl font-bold text-zinc-300 px-8 whitespace-nowrap">CITY MUNICIPALITIES</div>
+              <img src="/clients/agropure.webp" alt="Agropure" className="h-12 md:h-[58px] w-auto object-contain px-8 grayscale opacity-70" />
+              <img src="/clients/amber-logo.png" alt="Amber" className="h-10 md:h-12 w-auto object-contain px-8 grayscale opacity-70" />
+              <img src="/clients/ashoka.webp" alt="Ashoka" className="h-12 md:h-[58px] w-auto object-contain px-8 grayscale opacity-70" />
+              <img src="/clients/frankmetals.png" alt="Frank Metals" className="h-10 md:h-12 w-auto object-contain px-8 grayscale opacity-70" />
+              <img src="/clients/mannat-haveli.png" alt="Mannat Haveli" className="h-10 md:h-12 w-auto object-contain px-8 grayscale opacity-70" />
+              <img src="/clients/oldraohotels.png" alt="Old Rao Hotels" className="h-[96px] md:h-[117px] w-auto object-contain px-8 grayscale opacity-70" />
+              <img src="/clients/srmuniversity.png" alt="SRM University" className="h-10 md:h-12 w-auto object-contain px-8 grayscale opacity-70" />
             </div>
           </div>
         </div>
