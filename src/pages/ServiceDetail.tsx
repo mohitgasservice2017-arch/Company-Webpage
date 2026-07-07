@@ -50,9 +50,11 @@ export function ServiceDetail() {
           
           <div className="rounded-3xl overflow-hidden shadow-2xl relative h-[500px]" data-aos="fade-left">
             <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent z-10"></div>
-            <img 
-              src={service.image} 
-              alt={service.title} 
+            <img
+              src={service.image}
+              alt={service.title}
+              width={512}
+              height={512}
               className="w-full h-full object-cover relative z-0"
             />
           </div>

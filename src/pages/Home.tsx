@@ -7,7 +7,7 @@ export function Home() {
     <main>
       <section className="w-full bg-primary-container text-on-primary-container relative overflow-hidden">
         <div className="absolute inset-0 z-0">
-          <img alt="Industrial gas infrastructure with warm dramatic lighting and glowing orange sparks" className="w-full h-full object-cover opacity-20 mix-blend-multiply" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBmpMHRW32cWC1bSJaK1WNgkM4xaY5O_F7GCN3jahzfi_NuOdesd0RrjWZFJVS80Jel7HPPl-zws_lh6gqYzoge0ADTwvo_WE0o2nSX9CYTGhD-9j2KQj9ZJ6EKyfbJcU0FR5_2YMzyz-83sIMHwTBaeAYVIcd8EdivxENe5-_zTBkCbLDKgduJCrZ46UU3VRccZYLHF6SWlLZvn-Gjs-XgJWDpT0tRCXgYRq2r4yr7M6ekVTzbHgsvt-IsZ7U61toErdnDCGX9ia62" />
+          <img alt="Industrial gas infrastructure with warm dramatic lighting and glowing orange sparks" className="w-full h-full object-cover opacity-20 mix-blend-multiply" src="/images/hero-bg.webp" width={512} height={512} fetchPriority="high" />
         </div>
         <div className="relative z-10 max-w-container-max mx-auto px-4 md:px-12 py-xl md:py-24 grid grid-cols-1 md:grid-cols-2 gap-gutter items-center min-h-[716px]">
           <div className="flex flex-col gap-md" data-aos="fade-right" data-aos-duration="1000">
@@ -41,22 +41,22 @@ export function Home() {
           <h3 className="text-center text-sm font-bold uppercase tracking-widest text-zinc-400 mb-10" data-aos="fade-up">Trusted by Industry Leaders</h3>
           <div className="marquee-container" data-aos="fade-up" data-aos-delay="100">
             <div className="marquee-content items-center">
-              <img src="/clients/agropure.webp" alt="Agropure" className="h-12 md:h-[58px] w-auto object-contain px-8 grayscale opacity-70" />
-              <img src="/clients/amber-logo.png" alt="Amber" className="h-10 md:h-12 w-auto object-contain px-8 grayscale opacity-70" />
-              <img src="/clients/ashoka.webp" alt="Ashoka" className="h-12 md:h-[58px] w-auto object-contain px-8 grayscale opacity-100" />
-              <img src="/clients/frankmetals.png" alt="Frank Metals" className="h-10 md:h-12 w-auto object-contain px-8 grayscale opacity-100" />
-              <img src="/clients/mannat-haveli.png" alt="Mannat Haveli" className="h-10 md:h-12 w-auto object-contain px-8 grayscale opacity-70" />
-              <img src="/clients/oldraohotels.png" alt="Old Rao Hotels" className="h-[96px] md:h-[117px] w-auto object-contain px-8 grayscale opacity-70" />
-              <img src="/clients/srmuniversity.png" alt="SRM University" className="h-10 md:h-12 w-auto object-contain px-8 grayscale opacity-70" />
+              <img src="/clients/agropure.webp" alt="Agropure" width={175} height={87} loading="lazy" className="h-12 md:h-[58px] w-auto object-contain px-8 grayscale opacity-70" />
+              <img src="/clients/amber-logo.webp" alt="Amber" width={468} height={150} loading="lazy" className="h-10 md:h-12 w-auto object-contain px-8 grayscale opacity-70" />
+              <img src="/clients/ashoka.webp" alt="Ashoka" width={180} height={68} loading="lazy" className="h-12 md:h-[58px] w-auto object-contain px-8 grayscale opacity-100" />
+              <img src="/clients/frankmetals.png" alt="Frank Metals" width={512} height={92} loading="lazy" className="h-10 md:h-12 w-auto object-contain px-8 grayscale opacity-100" />
+              <img src="/clients/mannat-haveli.png" alt="Mannat Haveli" width={207} height={74} loading="lazy" className="h-10 md:h-12 w-auto object-contain px-8 grayscale opacity-70" />
+              <img src="/clients/oldraohotels.webp" alt="Old Rao Hotels" width={298} height={350} loading="lazy" className="h-[96px] md:h-[117px] w-auto object-contain px-8 grayscale opacity-70" />
+              <img src="/clients/srmuniversity.webp" alt="SRM University" width={372} height={150} loading="lazy" className="h-10 md:h-12 w-auto object-contain px-8 grayscale opacity-70" />
             </div>
             <div aria-hidden="true" className="marquee-content items-center">
-              <img src="/clients/agropure.webp" alt="Agropure" className="h-12 md:h-[58px] w-auto object-contain px-8 grayscale opacity-70" />
-              <img src="/clients/amber-logo.png" alt="Amber" className="h-10 md:h-12 w-auto object-contain px-8 grayscale opacity-70" />
-              <img src="/clients/ashoka.webp" alt="Ashoka" className="h-12 md:h-[58px] w-auto object-contain px-8 grayscale opacity-100" />
-              <img src="/clients/frankmetals.png" alt="Frank Metals" className="h-10 md:h-12 w-auto object-contain px-8 grayscale opacity-100" />
-              <img src="/clients/mannat-haveli.png" alt="Mannat Haveli" className="h-10 md:h-12 w-auto object-contain px-8 grayscale opacity-70" />
-              <img src="/clients/oldraohotels.png" alt="Old Rao Hotels" className="h-[96px] md:h-[117px] w-auto object-contain px-8 grayscale opacity-70" />
-              <img src="/clients/srmuniversity.png" alt="SRM University" className="h-10 md:h-12 w-auto object-contain px-8 grayscale opacity-70" />
+              <img src="/clients/agropure.webp" alt="Agropure" width={175} height={87} loading="lazy" className="h-12 md:h-[58px] w-auto object-contain px-8 grayscale opacity-70" />
+              <img src="/clients/amber-logo.webp" alt="Amber" width={468} height={150} loading="lazy" className="h-10 md:h-12 w-auto object-contain px-8 grayscale opacity-70" />
+              <img src="/clients/ashoka.webp" alt="Ashoka" width={180} height={68} loading="lazy" className="h-12 md:h-[58px] w-auto object-contain px-8 grayscale opacity-100" />
+              <img src="/clients/frankmetals.png" alt="Frank Metals" width={512} height={92} loading="lazy" className="h-10 md:h-12 w-auto object-contain px-8 grayscale opacity-100" />
+              <img src="/clients/mannat-haveli.png" alt="Mannat Haveli" width={207} height={74} loading="lazy" className="h-10 md:h-12 w-auto object-contain px-8 grayscale opacity-70" />
+              <img src="/clients/oldraohotels.webp" alt="Old Rao Hotels" width={298} height={350} loading="lazy" className="h-[96px] md:h-[117px] w-auto object-contain px-8 grayscale opacity-70" />
+              <img src="/clients/srmuniversity.webp" alt="SRM University" width={372} height={150} loading="lazy" className="h-10 md:h-12 w-auto object-contain px-8 grayscale opacity-70" />
             </div>
           </div>
         </div>
@@ -115,7 +115,7 @@ export function Home() {
 
             <div data-aos="fade-up" data-aos-delay="200">
               <TiltCard className="group cursor-pointer rounded-xl overflow-hidden relative aspect-[4/5] bg-surface-container-highest tilt-card h-full" tiltMax={8} tiltScale={1.05} tiltSpeed={400}>
-                <img alt="Luxury hotel lobby with warm ambient lighting and contemporary design" className="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBOYdDevUtp0-GEZWGJHiOH14NDFB_uHcPuwNVqlN4mQLtxqHK2D9IGSVcUnY2w-dXCXf7rpIdV8AgYh_lxHwjJ81BvufWIn3ZSdiTHMljYArn8L0EQPE3kAjfFmBt666uyAkf5ymCEHUJa0AnoajLDrsJbO72WR63IoAZm6XadLnDRQVdZLAKvzmxMJ8u5q-GENf2bg5rkHambXm53TgXF-_51IFgiZtWqmUPUbq-ADM2iDVMycfJNDHRnqQvs5oNDiNlY1w-sIPAN" />
+                <img alt="Luxury hotel lobby with warm ambient lighting and contemporary design" className="w-full h-full object-cover" src="/images/sector-hotels.webp" width={512} height={512} loading="lazy" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent flex flex-col justify-end p-6 tilt-card-content">
                   <h4 className="font-h4 text-h4 text-white mb-1">Hotels</h4>
                   <p className="font-body-sm text-white/80">Scalable commercial solutions</p>
@@ -125,7 +125,7 @@ export function Home() {
 
             <div data-aos="fade-up" data-aos-delay="300">
               <TiltCard className="group cursor-pointer rounded-xl overflow-hidden relative aspect-[4/5] bg-surface-container-highest tilt-card h-full" tiltMax={8} tiltScale={1.05} tiltSpeed={400}>
-                <img alt="Bustling professional restaurant kitchen with chefs cooking over high flames" className="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC9mTpTjrZJFIjcp2uOdAjE3SI8dhZZvU1moBj44GrkYwC1wjuUNq8RjG9d_vzh8a1YQQic8o6s_AJeaw33uE-nKBtmmUStpOucu1Hyk6PC8k2bmhj2efmbo6-0pNr7m0TTZuSu9LX_QsJKWNhaSjMAeQqvpqkGNu8u-kajLB-3fblie4soicByKd1sap14TaZFlC6G7_RAkrhiMMOeYzPRF1ggIoRVIpyb8IruB8O572o4Uq7arCwQQeqRmkn03xDKshAYQp5IH9bH" />
+                <img alt="Bustling professional restaurant kitchen with chefs cooking over high flames" className="w-full h-full object-cover" src="/images/sector-restaurants.webp" width={512} height={512} loading="lazy" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent flex flex-col justify-end p-6 tilt-card-content">
                   <h4 className="font-h4 text-h4 text-white mb-1">Restaurants</h4>
                   <p className="font-body-sm text-white/80">High-performance bhatti setups</p>
@@ -135,7 +135,7 @@ export function Home() {
 
             <div data-aos="fade-up" data-aos-delay="400">
               <TiltCard className="group cursor-pointer rounded-xl overflow-hidden relative aspect-[4/5] bg-surface-container-highest tilt-card h-full" tiltMax={8} tiltScale={1.05} tiltSpeed={400}>
-                <img alt="Vibrant traditional Indian dhaba exterior at night with colorful warm lighting" className="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCdpBYdiJ0SwqDZFEmfZ8OUShxTq0Tg2ziOUoZqi3xHqu5ZZLiJbQwew-l3qUZ7PcP6OhuMURTr0Rub8N32mFURCdkF_tQTEZi1bS2D2g2eP1xSLOg1R0I3FKlx590u42hSvI8Wh11tMBegCN5bAKnCC-9owwsPYMsAitFNArA1u7o6XMqQvxv4F3DYA07aJR2gDypKEblC42mVhFRDUj24QCu0NzZPBG9cKuwYhsHB9_APCkGHT2eC4tVwrfula_tHlveUmYcUJ_rV" />
+                <img alt="Vibrant traditional Indian dhaba exterior at night with colorful warm lighting" className="w-full h-full object-cover" src="/images/sector-dhabas.webp" width={512} height={512} loading="lazy" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent flex flex-col justify-end p-6 tilt-card-content">
                   <h4 className="font-h4 text-h4 text-white mb-1">Dhabas</h4>
                   <p className="font-body-sm text-white/80">Robust high-volume systems</p>
