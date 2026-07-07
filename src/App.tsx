@@ -7,6 +7,7 @@ import { Services } from './pages/Services';
 import { ServiceDetail } from './pages/ServiceDetail';
 import { TermsOfService } from './pages/TermsOfService';
 import { PrivacyPolicy } from './pages/PrivacyPolicy';
+import { NotFound } from './pages/NotFound';
 
 function App() {
   const [showScrollTop, setShowScrollTop] = useState(false);
@@ -65,6 +66,7 @@ function App() {
         <Route path="/services/:id" element={<ServiceDetail />} />
         <Route path="/terms-of-service" element={<TermsOfService />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
 
       <footer className="w-full border-t-8 border-orange-600 bg-zinc-50 dark:bg-zinc-900 flex flex-col md:flex-row justify-between items-start px-8 py-16 gap-10">
